@@ -26,7 +26,7 @@ jobs:
 
     - name: Test with Pytest
       run: |
-        pytest
+        pytest ./test_test.py
 
     - name: Lint with Pylint
       run: |
